@@ -1,0 +1,2 @@
+insert 1개
+printf 7개
