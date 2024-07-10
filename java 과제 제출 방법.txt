@@ -1,0 +1,6 @@
+해당 파일 Export->Archive File
+->체크->디렉토리 Browse
+->src->체크->위에 파일 위치 주소 복사
+to directory에 붙여넣기
+
+폴더에 zip파일 생성

@@ -9,7 +9,7 @@ public class Member {
 	private char gender;
 	private int age;
 	
-	/* 생성자 2개, getter/setter, toString 추가*/
+	/* 생성자 2개, getter/setter, toString 추가 */
 	
 	public Member() {
 	}

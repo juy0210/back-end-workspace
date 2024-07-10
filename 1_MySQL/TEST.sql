@@ -33,11 +33,6 @@ GROUP BY dept_code
 HAVING avg(salary) > 2800000
 ORDER BY dept_code;
 
-SELECT dept_code, format(avg(salary), 0) 평균, count(*)인원수
-FROM employee
-GROUP BY dept_code
-HAVING avg(salary) > 2800000;​
-
 SELECT job_code "직급 코드", format(avg(salary), 0) "평균 급여"
 FROM employee
 WHERE bonus is not null

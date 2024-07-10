@@ -13,7 +13,7 @@ public class ConditionPractice2 {
 //		c.method2();
 //		c.method3();
 //		c.method4();
-//		c.method5();
+		c.method5();
 //		c.method6();
 //		c.method7();
 //		c.method8();
@@ -106,24 +106,24 @@ public class ConditionPractice2 {
         축하합니다, 합격입니다!
      */
     public void method4() {
-    	System.out.print("국어점수 : ");
+    	System.out.println("국어 점수 : ");
     	int kscore = sc.nextInt();
     	
-    	System.out.print("수학점수 : ");
+    	System.out.println("수학 점수 : ");
     	int mscore = sc.nextInt();
     	
-    	System.out.print("영어점수 : ");
+    	System.out.println("영어 점수 : ");
     	int escore = sc.nextInt();
     	
     	int sum = kscore + mscore + escore;
     	double avg = (double) sum / 3;
     	
-    	
     	if(kscore >= 40 && mscore >= 40 && escore >= 40 && avg >= 60) {
     		System.out.println("합계 : " + sum);
-    		System.out.printf("평균 : %.1f\n", avg);
+    		System.out.println("평균 : %.1f\n" + avg);
     		System.out.println("평균 : " + avg);
     		System.out.println("축하합니다, 합격입니다!");
+    		
     	} else {
     		System.out.println("불합격입니다.");
     	}

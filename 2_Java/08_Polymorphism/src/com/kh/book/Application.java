@@ -24,13 +24,13 @@ public class Application {
 		int num = sc.nextInt();
 		
 		System.out.println("1번 도서 : ");
-		String title = sc.nextLine();
+		String title1 = sc.nextLine();
 		System.out.println("2번 도서 : ");
-		String title = sc.nextLine();
+		String title2 = sc.nextLine();
 		System.out.println("3번 도서 : ");
-		String title = sc.nextLine();
+		String title3 = sc.nextLine();
 		System.out.println("4번 도서 : ");
-		String title = sc.nextLine();
+		String title4 = sc.nextLine();
 		System.out.println("대여할 도서 번호 선택");
 		int booklist = sc.nextInt();
 	}

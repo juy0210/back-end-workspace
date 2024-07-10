@@ -84,8 +84,9 @@ public class Application {
 	                        	viewEmployee.getName(), 
 	             	            viewEmployee.getGender(), 
 		                        viewEmployee.getPhone());
-	}
-	
+	    }
+    }
+	 
 	// 수정할 데이터를 사용자에게 받는 메서드
 	public void updateEmp() {
 		System.out.println("사원의 어떤 정보를 수정하시겠습니까?");
