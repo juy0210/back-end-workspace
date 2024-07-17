@@ -1,0 +1,6 @@
+window
+
+해당프로젝트 오른쪽클릭>properties>build path
+>modulepath>add external jars
+>mysql-connector-j-9.0.0.jar 추가
+>apply
