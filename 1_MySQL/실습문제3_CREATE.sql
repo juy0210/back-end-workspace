@@ -93,9 +93,11 @@ CREATE TABLE rent(
 );
 -- ALTER로 FOREIGN KEY만 관리 
 ALTER TABLE rent ADD CONSTRAINT member_no_fk 
-	FOREIGN KEY(rent_mem_no) REFERENCES member(member_no) ON DELETE SET NULL;
+	FOREIGN KEY(rent_mem_no) REFERENCES member(member_no) ON DELETE CASCADE;
 ALTER TABLE rent ADD CONSTRAINT book_no_fk 
 	FOREIGN KEY(rent_book_no) REFERENCES book(bk_no) ON DELETE SET NULL;
+    
+    SELECT * FROM member;
     
 INSERT INTO rent(rent_mem_no, rent_book_no) VALUES(1, 2);
 INSERT INTO rent(rent_mem_no, rent_book_no) VALUES(1, 3);
@@ -103,7 +105,15 @@ INSERT INTO rent(rent_mem_no, rent_book_no) VALUES(2, 1);
 INSERT INTO rent(rent_mem_no, rent_book_no) VALUES(2, 2);
 INSERT INTO rent(rent_mem_no, rent_book_no) VALUES(1, 5);
 
+SELECT * FROM rent JOIN book ON (rent_nook_no = bk_no);
+SELECT * FROM book;
+
 SELECT * FROM rent;
+
+SELECT * FROM member;
+
+SELECT * FROM rent WHERE rent_mem_no = ?;
+SELECT * FROM member;
 
 -- 5. 2번 도서를 대여한 회원의 이름, 아이디, 대여일, 반납 예정일(대여일 + 7일)을 조회하시오.
 SELECT 

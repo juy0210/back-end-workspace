@@ -64,6 +64,8 @@ CREATE TABLE test(
     tid INT
 );
 
+SELECT * FROM member;
+
 
 SELECT * FROM dept_copy;
 DROP TABLE member;

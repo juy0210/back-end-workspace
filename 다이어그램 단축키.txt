@@ -1,0 +1,4 @@
+테이블 만들기:3
+바로가기 연결 키:4
+프라이머리키 crtl+shift+enter
+crtl+enter
