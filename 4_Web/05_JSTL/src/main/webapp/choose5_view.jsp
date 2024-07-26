@@ -8,6 +8,7 @@
 <title>Insert title here</title>
 </head>
 <body>
+    <jsp:include page="header.jsp"/>
     <%-- c:if 사용했을 경우 
          1기 들어오면 "안녕하세요~~" 출력
          2기가 들어오면 "처음 뵙겠습니다!" 출력
