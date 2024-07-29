@@ -1,0 +1,10 @@
+insert into tag (tag_code, tag_name) values (1, '9-5');
+insert into tag (tag_code, tag_name) values (2, 'VUE');
+insert into tag (tag_code, tag_name) values (3, 'Taurus');
+insert into tag (tag_code, tag_name) values (4, 'Matrix');
+insert into tag (tag_code, tag_name) values (5, 'RAV4');
+insert into tag (tag_code, tag_name) values (6, 'Verona');
+insert into tag (tag_code, tag_name) values (7, 'Rodeo');
+insert into tag (tag_code, tag_name) values (8, 'Stealth');
+insert into tag (tag_code, tag_name) values (9, 'Elantra');
+insert into tag (tag_code, tag_name) values (10, 'Civic');
