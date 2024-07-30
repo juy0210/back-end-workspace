@@ -15,7 +15,7 @@ CREATE TABLE user (
 );
 
 CREATE TABLE music (
-	music_code INT PRIMARY KEY AUTO_INCREMENT,
+	music_code VARCHAR(200) PRIMARY KEY,
     music_name VARCHAR(100) NOT NULL,
     music_artist VARCHAR(100) NOT NULL,
     music_album_name VARCHAR(100),
@@ -45,7 +45,7 @@ CREATE TABLE playlist_like (
 CREATE TABLE playlist_music (
 	pm_code INT PRIMARY KEY AUTO_INCREMENT,
     pl_code INT,
-    music_code INT,
+    music_code VARCHAR(200),
     FOREIGN KEY (pl_code) REFERENCES playlist(pl_code),
     FOREIGN KEY (music_code) REFERENCES music(music_code)
 );
